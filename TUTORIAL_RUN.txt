@@ -1,0 +1,18 @@
+TUTORIAL_RUN
+
+unzip gobots.zip
+
+cd gobots
+
+screen -S gobots
+
+go run main.go x
+
+
+Don't give this file to anyone, because they will only steal your file features
+
+and be careful with strangers, because fraudsters have many ways to trick you
+
+The original creator of this file is only me, if someone else claims to be the creator of the file, don't easily believe 
+
+MY_ID: code-bot

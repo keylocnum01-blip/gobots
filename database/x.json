@@ -1,0 +1,125 @@
+{
+  "Authoken": [
+
+  "ufcd8da2c95662a7bf3d2fc24a71a8cc4:aWF0OiAxNzIwNzA0Njk2MjU3Cg==../i4l/Nhlb+sHiIr7kH4fYr6pg2o=",
+
+  "u8c6884f5b36979a63c497ea1c0c84572:aWF0OiAxNzIwNzA0NzExNjU1Cg==..VuYUa+jjCKS7qTh6voRg7lcyYEs=",
+
+  "u1ed998f91180ba51d2a898df09020942:aWF0OiAxNzIwNzA0ODIwMTI1Cg==..zJ3UfFBsfo3RezGOjHNx5euhask=",
+
+  "u0eb57c4dc65bd8d2534dc8abdcb8a5d9:aWF0OiAxNzIwNzA0ODQxOTg0Cg==..Em7uunkfrimmhdVyBKgzbg08P/I=",
+
+  "u75eab5f65816ec677f7f5eb4c495be44:aWF0OiAxNzIwNzA0OTQ4NDUyCg==..kda7iAUtLBRjkUvm3pL7g6fDWBg="
+
+  ],
+  "CreatorBack": [],
+  "MakerBack": [],
+  "BuyerBack": [],
+  "OwnerBack": [],
+  "MasterBack": [],
+  "AdminBack": [],
+  "ResponBack": "Bots here",
+  "BroadcastBack": "tester",
+  "WordbanBack": [],
+  "RestartBack": "",
+  "RnameBack": "1",
+  "SnameBack": "x",
+  "BotBack": [],
+  "Dalltime": "2030-12-1T00:00:00Z",
+  "Logobot": "⌖",
+  "SellerBack": [],
+  "BanBack": [],
+  "FuckBack": [],
+  "LockBack": [],
+  "MLimit": "✘",
+  "MFfresh": "✓",
+  "MuteBack": [],
+  "AnnunceBack": [],
+  "ProNameBack": [],
+  "ProPictureBack": [],
+  "ProNoteBack": [],
+  "ProAlbumBack": [],
+  "ProQrBack": [],
+  "ProjoinBack": [],
+  "ProInviteBack": [],
+  "ProCancelBack": [],
+  "ProkickBack": [],
+  "GbanBack": {},
+  "GadminBack": {},
+  "GownerBack": {},
+  "TimeBanBack": {},
+  "ProLinkBack": [],
+  "ProFlexBack": [],
+  "ProImageBack": [],
+  "ProVideoBack": [],
+  "ProCallBack": [],
+  "ProSpamBack": [],
+  "ProStickerBack": [],
+  "ProContactBack": [],
+  "ProPostBack": [],
+  "ProFileBack": [],
+
+  "Kikhistory": 0,
+  "Invhistory": 0,
+  "Canclhistory": 0,
+  "Maxkick": 10,
+  "Maxcancel": 10,
+  "Maxinvite": 10,
+  "Cancelpend": 5,
+  "AutoproBack": false,
+  "AutoPurgeBack": true,
+  "ProtectmodeBack": false,
+  "PowermodeBack": false,
+  "KickbanqrBack": false,
+  "MediadlBack": false,
+  "AutolikeBack": false,
+  "AutobcBack": false,
+  "AutojointicketBack": false,
+  "AutotranslateBack": false,
+  "NukejoinBack": false,
+  "CanceljoinBack": false,
+  "DetectcallBack": false,
+  "ModebackupBack": "inv",
+  "AutojoinBack": "off",
+  "AjsjoinBack": "qr",
+  "TypejoinBack": "none",
+  "TypebcBack": "none",
+  "TypetransBack": "EN",
+
+  "Command-sticker-kick": {
+    "stkid": "",
+    "stkpkgid": ""
+  },
+  "Command-sticker-respon": {
+    "stkid2": "",
+    "stkpkgid2": ""
+  },
+  "Command-sticker-stayall": {
+    "stkid3": "",
+    "stkpkgid3": ""
+  },
+  "Command-sticker-leave": {
+    "stkid4": "",
+    "stkpkgid4": ""
+  },
+  "Command-sticker-kickall": {
+    "stkid5": "",
+    "stkpkgid5": ""
+  },
+  "Command-sticker-bypass": {
+    "stkid6": "",
+    "stkpkgid6": ""
+  },
+  "Command-sticker-invite": {
+    "stkid7": "",
+    "stkpkgid7": ""
+  },
+  "Command-sticker-clearban": {
+    "stkid8": "",
+    "stkpkgid8": ""
+  },
+  "Command-sticker-cancelall": {
+    "stkid9": "",
+    "stkpkgid9": ""
+  }
+}

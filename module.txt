@@ -1,0 +1,38 @@
+#MODULE_GOLANG
+
+wget https://go.dev/dl/go1.21.0.linux-amd64.tar.gz
+
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.0.linux-amd64.tar.gz
+
+nano .profile
+
+# ~/.profile: executed by Bourne-compatible login shells.
+
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+fi
+
+mesg n 2> /dev/null || true
+export PATH=$PATH:/usr/local/go/bin
+export GOROOT=/usr/local/go
+export GOPATH=$HOME
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+Ctr x , y , enter
+
+(close you server)
+
+( open again you server and install module bellow 👇 )
+
+go env -w GO111MODULE=off && go get github.com/opalmer/check-go-version/api && go get github.com/shirou/gopsutil/disk && go get github.com/shirou/gopsutil/host && go get github.com/shirou/gopsutil/mem && go get github.com/tidwall/gjson && go get github.com/valyala/fasthttp && go get -u github.com/kardianos/osext && go get -u github.com/panjf2000/ants && go get -u github.com/asaskevich/govalidator && go get -u github.com/dchest/siphash && go get -u golang.org/x/net/http2 && go get github.com/fatih/color && go get github.com/ddosify/go-faker/faker
+
+#MODULE_IMAGE
+
+pip3 install bs4 && pip3 install humanize && pip3 install html5lib && pip3 install CHRLINE && pip3 install httpx==0.24.1
+
+
+#FOR ERROR INSTALL GOLANG
+
+export GOPATH="$HOME/workspace/go" && export GOPATH=$HOME/workspace/go

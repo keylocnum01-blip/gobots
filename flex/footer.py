@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+# GOLANG TEMPLATE
+# TYPE: TEMPLATE
+# CREATE BY: SELFTCR™
+# HELPER: 2023
+# ID LINE: code-bot
+# WHATSAPP: +6282278984821
+#==========IMPORT==========#
+from MySplit import MySplit
+from linepy import *
+from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
+import sys
+import re, ast, httpx, random, html5lib, requests, os, json
+
+#==========LOGIN_MAIN==========#
+TOKEN = sys.argv[1]
+to = sys.argv[2]
+text = sys.argv[3]
+id = sys.argv[4]
+
+Tcr = LINE(TOKEN, appName="IOS\t12.6.1\tiOS\t15.5")
+#================MAIN_FLEX==============
+def allowLiff():
+    liffId = id[0:10]
+    url = 'https://access.line.me/dialog/api/permissions'
+    data = {'on': ['P', 'CM'], 'off': []}
+    headers = {'X-Line-Access': Tcr.authToken, 'X-Line-Application': 'IOS\t12.6.1\tiOS\t15.5', 'X-Line-ChannelId': '{}'.format(liffId), 'Content-Type': 'application/json'}
+    requests.post(url, json=data, headers=headers)
+
+def sendTemplate(to, data):
+    allowLiff()
+    xyz = LiffChatContext(to)
+    xyzz = LiffContext(chat=xyz)
+    view = LiffViewRequest(id, xyzz)
+    token = Tcr.liff.issueLiffView(view)
+    url = 'https://api.line.me/message/v3/share'
+    headers = {'Content-Type': 'application/json','Authorization': 'Bearer %s' % token.accessToken}
+    data = {"messages":[data]}
+    requests.post(url, headers=headers, data=json.dumps(data))
+#================FOOTER_MENU==============
+def sendFooter(to, text):
+    sendTemplate(to, {"type": "text","text": text,"sentBy": {"label": "SELFTCR™","iconUrl": "https://i.ibb.co/k5T4VWY/ezgif-com-resize-5.png","linkUrl": "https://line.me/ti/p/~code-bot"}})
+
+#================FOOTER_SEND==============
+sendFooter(to, text)
+#=====================================
