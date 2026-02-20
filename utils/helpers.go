@@ -139,3 +139,14 @@ func AppendLast(s []string, e string) []string {
 	}
 	return s
 }
+
+// SplitCommand - Split command text into parts
+func SplitCommand(text string) []string {
+	// Remove leading/trailing spaces
+	text = strings.TrimSpace(text)
+	
+	// Split by space
+	parts := strings.Fields(text)
+	
+	return parts
+}
